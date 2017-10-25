@@ -1,0 +1,13 @@
+.navbar-default  {
+    background-color: #000000;
+}
+
+
+.navbar-brand img {
+    width: 200px;
+    
+}
+
+.navbar-nav {
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
