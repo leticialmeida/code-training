@@ -1,5 +1,7 @@
 .navbar-default  {
-    background-color: #000000;
+    background-color: transparent;
+    border: none;
+    position: fixed;
 }
 
 
@@ -12,8 +14,31 @@
     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-.page-header {
-    background-image: url(static/IMG/header-bg.jpg);
-    height: 100vh;
-    width: 100%;
+h1 {
+    text-align: center;
+    color: #ffffff;
 }
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+.page-header {
+    background-image:url("../IMG/header-bg.jpg");
+    height: 105vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+}
+
+.vertical-center{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
