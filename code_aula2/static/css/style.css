@@ -1,7 +1,19 @@
+body{
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .navbar-default  {
     background-color: transparent;
     border: none;
-    position: fixed;
+    position: fixed
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+    font-weight: 700;
+
 }
 
 
@@ -10,18 +22,22 @@
     
 }
 
+
 .navbar-nav {
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+
 }
 
-h1 {
-    text-align: center;
-    color: #ffffff;
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fed136;
 }
 
 h2 {
     text-align: center;
     color: #ffffff;
+    font-style: italic;
+    font-family: Droid Serif;
 }
 .page-header {
     background-image:url("../IMG/header-bg.jpg");
@@ -40,5 +56,18 @@ h2 {
 
 .jumbotron {
     background-color: transparent;
+
 }
 
+button {
+    background-color: #fed136;
+    border: 0;
+   color: #ffffff;
+   padding: 20px;
+   align-content: center;
+   font-weight: 700;
+}
+
+.page-header {
+    text-align: center;
+}
