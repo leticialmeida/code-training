@@ -5,7 +5,7 @@ body{
 .navbar-default  {
     background-color: transparent;
     border: none;
-    position: fixed
+    position: fixed;
     color: #ffffff;
 }
 
@@ -70,4 +70,26 @@ button {
 
 .page-header {
     text-align: center;
+}
+
+.sectionpadding {
+    padding: 150px 0px;
+}
+
+.second {
+    text-align: center;
+}
+
+.wrap_icone{
+   
+}
+
+.fa-stack-2x {
+    font-size: 9em;
+    color: #fed136;
+}
+
+.fa-stack-1x {
+    font-size: 60px;
+    line-height: 122px;
 }
