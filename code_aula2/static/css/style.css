@@ -13,6 +13,7 @@ h1 {
     text-align: center;
     color: white !important;
     font-weight: 700;
+    padding: 30px;
 
 }
 
@@ -73,7 +74,7 @@ button {
 }
 
 .sectionpadding {
-    padding: 150px 0px;
+    padding: 100px 0px;
 }
 
 .second {
@@ -81,7 +82,7 @@ button {
 }
 
 .wrap_icone{
-   
+padding-bottom: 140px;
 }
 
 .fa-stack-2x {
@@ -93,3 +94,38 @@ button {
     font-size: 60px;
     line-height: 122px;
 }
+
+.services {
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.button-header {
+    padding: 20px;
+}
+
+.third {
+    text-align: center;
+    background-color: #f8f9fa !important;
+}
+
+.title {
+    padding: 90px;
+}
+
+.imagens_cima {
+    width: 100%;
+    margin: inherit;
+    margin-top: 100px;
+}
+
