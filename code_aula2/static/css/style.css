@@ -123,9 +123,36 @@ h4 {
     padding: 90px;
 }
 
-.imagens_cima {
+.imagens_portfolio {
     width: 100%;
     margin: inherit;
     margin-top: 100px;
 }
 
+.forth {
+    text-align: center;
+}
+
+.col_text {
+    text-align: right;
+    padding-left: 180px;
+    line-height: 27px;
+}
+
+.rounded_circle {
+    border-radius: 50% !important;
+    border: 7px solid #e9ecef;
+    height: 170px;
+}
+
+.imagens_portfolio div.col-md-4.col-lg-4.col-sm-12 {
+    padding: 15px;
+}
+
+#image1 {
+    background-image: url("../IMG/portfolio/01-thumbnail.jpg");
+    content: "";
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
