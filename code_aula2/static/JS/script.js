@@ -1,12 +1,19 @@
 
-    $("#image1").click(
-        function (){
+    $(".image1").hover(
+        function () {
             $(this).addClass("background-red");
         },
-        function (){
+        function () {
             $(this).removeClass("background-red");
         }
-    ) ;
+        );
+            
+        
+        // function (){
+        //     $(this).removeClass("#image1").addClass("background-red");
+        
+
+          
   
 
 
