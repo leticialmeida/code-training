@@ -1,12 +1,18 @@
 
-    $(".image1").hover(
+    $('.image_hover').hover(
         function () {
-            $(this).addClass("background-red");
+            $(this).children().show();
         },
         function () {
-            $(this).removeClass("background-red");
+            $('.background-red').hide();
         }
         );
+       
+       
+    $(window).scroll(function(){
+        $("nav").addClass(".nav_hover");
+        })
+   
             
         
         // function (){

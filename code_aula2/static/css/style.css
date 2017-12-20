@@ -222,7 +222,19 @@ h4 {
 .background-red {
     background-color: #fed136!important;
     height: 250px;
+    width: 346.33px;
     position: absolute;
     opacity: 0.9;
     z-index: 99;
+    display: none;
+}
+
+.text_hover {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.nav_hover {
+    background-color: #000000!important;
 }
